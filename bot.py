@@ -7,7 +7,7 @@ import telebot
 from telebot import types
 import yt_dlp
 
-bot = telebot.TeleBot("8534806219:AAFe47NU2cGZeCsGKESWkB7rOc6sxZMiR8A", threaded=False)
+bot = telebot.TeleBot(os.environ["BOT_TOKEN"], threaded=False)
 
 
 def main_menu():
